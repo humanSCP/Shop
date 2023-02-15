@@ -67,7 +67,7 @@ const Countdown = () => {
         ))}
       </div>
       <Button
-        className="w-[130px] z-10 sm:text-[14px] max-sm:py-3"
+        className="w-[120px] z-10 sm:text-[14px] max-sm:py-3"
         onClick={navigationShop}
       >
         Visit Store

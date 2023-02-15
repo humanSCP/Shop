@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 const icons = ["/instagram.png", "/twitter.png", "/slack.png", "/meta.png"];
 
 const Footer = () => {
-    return (
-        <div className="w-full bg-primary bg-opacity-5 z-10">
+  return (
+    <div className="w-full bg-primary bg-opacity-5 z-10">
       <div className="container p-10 pb-0 flex flex-col gap-y-5">
-        
+
         <div className="flex justify-between w-full pb-5">
           <NavLink to="/" className={"w-[50px] h-[50px]"}>
             <img src="/qora.png" alt="" className="w-full h-full" />
@@ -80,7 +80,7 @@ const Footer = () => {
         <div className="flex items-center md:justify-between justify-center py-5 text-sm">
           <div className="flex items-center gap-x-3">
             <strong className="font-semibold">
-              Copyright &#169; 2022 DevDT
+              Copyright &#169; 2023 DevDT
             </strong>
             <span className="w-[5px] h-[5px] rounded-full bg-text1 bg-opacity-50"></span>
             <span className="font-medium text-text1">Powered by @DevDT</span>
@@ -95,7 +95,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-    )
+  )
 }
 
 export default Footer
