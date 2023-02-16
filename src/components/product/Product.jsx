@@ -165,12 +165,11 @@ const Product = () => {
             </div>
             <div className="font-medium text-dark text-sm flex items-center">
               {search
-                ? ""
-                : `Showing ${data?.products?.length === 0 ? "0" : skip + 1} - ${
-                    skip + itemsPerPage >= data.total
-                      ? data.total
-                      : skip + itemsPerPage
-                  } of ${data.total} results`}
+                ? "" 
+                : `Showing ${data?.products?.length === 0 ? "0" : skip + 1} - ${skip + itemsPerPage >= data.total
+                  ? data.total
+                  : skip + itemsPerPage
+                } of ${data.total} results`}
             </div>
           </div>
         </div>

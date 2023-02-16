@@ -4,7 +4,7 @@ import { fetcher } from "../../apiConfig";
 import IconMinus from "../../icons/IconMinus";
 import IconPlus from "../../icons/IconPlus";
 
-const CategoryShop = ({onClick = () => {}}) => {
+const CategoryShop = ({ onClick = () => { } }) => {
   const { data } = useSWR(`https://dummyjson.com/products/categories`, fetcher);
   const [showCategories, setShowCategories] = useState(false);
 
@@ -13,7 +13,7 @@ const CategoryShop = ({onClick = () => {}}) => {
   };
 
   if (!data) return;
-  
+
   return (
     <div className="relative w-[200px]">
       <h3
